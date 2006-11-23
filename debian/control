@@ -1,0 +1,13 @@
+Source: ksplash-theme-kanotix-penguins
+Section: graphics
+Priority: optional
+Maintainer: Kel Modderman <kelrin@tpg.com.au>
+Build-Depends: cdbs, debhelper (>= 5.0.0)
+Standards-Version: 3.7.2
+
+Package: ksplash-theme-kanotix-penguins
+Architecture: all
+Depends: ksplash
+Description: penguin ksplash theme for Kanotix
+ This package includes a Kanotix KSplash screen, which is seen when
+ a KDE session is launched. It features swimming penguins.

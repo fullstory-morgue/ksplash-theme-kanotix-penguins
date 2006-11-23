@@ -1,0 +1,7 @@
+#!/usr/bin/make -f
+  
+include /usr/share/cdbs/1/rules/debhelper.mk
+
+install/ksplash-theme-kanotix-penguins::
+	install -m 0644 *.png Theme.rc \
+		debian/ksplash-theme-kanotix-penguins/usr/share/apps/ksplash/Themes/KanotixPenguins/
